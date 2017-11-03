@@ -5,7 +5,7 @@ $('body').html(function () {
         if (i === 0 || i === 9) {
             for (n = 0; n <= 9; n++) {
                 getCol(n);
-                (i === 0) ? $('.table').append(tags.divCellRew + col) : $('.table').append(tags.divCell + col);
+                (n === 0) ? $('.table').append(tags.divCell + col) : $('.table').append(tags.divCellRew + col);
             }
         }
         else {
