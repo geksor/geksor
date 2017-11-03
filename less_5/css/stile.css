@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+}
+
+body, .table, .cell{
+    display: flex;
+}
+
+.table{
+    flex-wrap: wrap;
+    width: 90vw;
+    max-width: 90vh;
+    height: 90vw;
+    max-height: 90vh;
+}
+
+body, .cell{
+    justify-content: center;
+    align-items: center;
+}
+
+.cell{
+    height: 9vw;
+    max-height: 9vh;
+    width: 9vw;
+    max-width: 9vh;
+    font-size: 74px;
+    /*-webkit-user-select: none;*/
+}
+
+
+.info{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.rew{
+    transform: rotate(180deg);
+}
+
+.black{
+    background-color: #512c1c;
+}
+
+.white{
+    background-color: #f8d891;
+}
