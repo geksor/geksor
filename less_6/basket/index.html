@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>basket</title>
+    <link rel="stylesheet" href="css/stile.css">
+    <script src="js/jquery.js"></script>
+    <script defer src="js/script.js"></script>
+
+</head>
+<body>
+<div class="prod_block">
+    <div attr="prod_1" class="product">
+        <h2 class="prod_name">Товар 1</h2>
+        <span>Цена: </span><span class="prod_price">100</span><span> руб</span><br>
+        <button class="button">В корзину</button>
+    </div>
+    <div attr="prod_2" class="product">
+        <h2 class="prod_name">Товар 2</h2>
+        <span>Цена: </span><span class="prod_price">200</span><span> руб</span><br>
+        <button class="button">В корзину</button>
+    </div>
+    <div attr="prod_3" class="product">
+        <h2 class="prod_name">Товар 3</h2>
+        <span>Цена: </span><span class="prod_price">150</span><span> руб</span><br>
+        <button class="button">В корзину</button>
+    </div>
+</div>
+<div class="basket_block">
+    <div id="head" class="row head">
+        <div id="name" class="col">Название</div>
+        <div id="price" class="col">Цена</div>
+        <div id="num" class="col">Кол-во</div>
+        <div id="sum" class="col">Сумма</div>
+    </div>
+    <div id="total" class="total">Корзина пуста</div>
+</div>
+</body>
+</html>

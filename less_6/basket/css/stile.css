@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+}
+
+.row, .prod_block{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.col{
+    flex: 1;
+}
+
+.basket_block{
+    margin-top: 30px;
+}
+
+.prod_block{
+    justify-content: center;
+}
+
+.product{
+    width: 120px;
+    margin: 0 20px;
+}
+
+.button{
+    margin-top: 20px;
+}
